@@ -4,7 +4,8 @@ section{
 }
 section:last-of-type{
     border-bottom: none;
-}
+}/*ou section:not(#les_transitions_10){border-bottom ...}*/
+
 /* début exo 01 les_hover_01 */
 .bg-color{
     height: 150px;
@@ -37,7 +38,7 @@ section:last-of-type{
 
 /* début exo 03 les_focus_03 */
 .border_color:focus{
-    border: blue solid 3px;
+    border: blue solid 5px;
     border-radius: 10px;
 }
 /* fin exo 03 les_focus_03 */
@@ -53,8 +54,6 @@ section:last-of-type{
 }
 .transition_04:hover{
     background-color:red;
-    height: 150px;
-    width: 150px;
 }
 /* fin exo 04 les transitions */
 
@@ -95,7 +94,7 @@ section:last-of-type{
     height: 150px;
     width: 50px;
     transition: 3s;
-    transition-timing-function: ease;
+    transition-timing-function: ease-in-out;
 }
 .transition_07:active{
     margin: 80%;
@@ -110,7 +109,7 @@ section:last-of-type{
     height: 150px;
     width: 50px;
     transition: 3s;
-    transition-timing-function: ease;
+    transition-timing-function: ease-in-out;
 }
 .transition_08:active{
     margin-left: 80%;
@@ -147,7 +146,6 @@ section:last-of-type{
     height: 150px;
     width: 150px;
     transition: 6s;
-
 }
 .transition_10_intrus{
     background-color: turquoise;
